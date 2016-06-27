@@ -1,7 +1,7 @@
 #webvtt.py
 
 A cgi-script written in Python to export professional EBU-STL subtitles as WebVTT file format with optional formatting.
-WebVTT is the [W3C](http://www.w3c.org) sanctioned and widly used subtitle format.
+WebVTT is the [W3C](http://www.w3c.org) sanctioned and widely used subtitle format.
 
 This conversions can be optionally done while preserving as much formatting as possible. The output formatting is done using CSS classes and the following attributes are supported:
 
