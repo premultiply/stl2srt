@@ -436,6 +436,8 @@ class STL:
                 text = self.__parseFormatting(TTI['TF'], self.richFormatting)
                 text = text.decode(self.codePage)
                 txt += text
+                if TTI['EBN'] == 254: # discard blocks with user data
+                    continue
                 if TTI['EBN'] == 255:
                     # skip empty subtitles and those before the start of the show
                     if txt and tci >= 0:
